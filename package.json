@@ -1,0 +1,20 @@
+{
+  "name": "reason-cli-bin",
+  "version": "1.13.7",
+  "description": "Package to install reasonml/reason-cli from the NPM repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zploskey/reason-cli-bin.git"
+  },
+  "author": "Zach Ploskey <zach@ploskey.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zploskey/reason-cli-bin/issues"
+  },
+  "homepage": "https://github.com/zploskey/reason-cli-bin#readme"
+}
+
