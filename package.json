@@ -2,8 +2,10 @@
   "name": "reason-cli-bin",
   "version": "1.13.7",
   "description": "Package to install reasonml/reason-cli from the NPM repository",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "build": "babel src -d lib",
+    "install": "node lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,6 +17,12 @@
   "bugs": {
     "url": "https://github.com/zploskey/reason-cli-bin/issues"
   },
-  "homepage": "https://github.com/zploskey/reason-cli-bin#readme"
+  "homepage": "https://github.com/zploskey/reason-cli-bin#readme",
+  "dependencies": {
+    "download-tarball": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
 }
-
