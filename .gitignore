@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# downloaded packages
+*.tar.gz
+
+# extracted tarball
+reason-cli/
