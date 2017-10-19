@@ -28,7 +28,7 @@ const installReasonCli = (platform) => {
 const extractTarballFromUrl = (url, filename) => {
   if (!fs.existsSync(filename)) {
     console.log('Fetching reason-cli from ' + url);
-    child_process.execSync('curl ' + url + ' > ' + filename, 'inherit');
+    child_process.execSync('curl -L ' + url + ' > ' + filename, 'inherit');
   } else {
     console.log('Tarball ' + filename + ' is already downloaded.');
   }
