@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/zploskey/reason-cli-bin#readme",
   "dependencies": {
-    "download-tarball": "^1.1.0"
+    "download-tarball": "^1.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

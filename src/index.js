@@ -1,10 +1,9 @@
 #!/usr/bin/env node
 
-/* eslint-disable import/no-extraneous-dependencies */
-
 const process = require('process');
+const path = require('path');
 
-import download from 'download-package-tarball';
+import download from 'download-tarball';
 
 const baseurl = "https://github.com/reasonml/reason-cli/archive/"
 const version = '1.13.7';
@@ -23,14 +22,14 @@ const installReasonCli = (platform) => {
   console.log('Attempting to download ' + url + '.');
   extractTarballFromUrl(url);
 
-  console.log('reason-cli package installed successfully');
+  console.log('The reason-cli package installed successfully');
   process.exit(0);
 }
 
 const extractTarballFromUrl = (url) => {
-  return download({
+  download({
     url: url,
-    dir: './reason-cli'
+    dir: '.',
   }).then(() => {
     console.log('file is now downloaded!');
   }).catch(err => {
