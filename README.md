@@ -1,4 +1,4 @@
 # reason-cli-bin
-Package to install
+NPM package that installs the right
 [reasonml/reason-cli](https://github.com/reasonml/reason-cli)
-from the NPM repository.
+binaries for your platform.
