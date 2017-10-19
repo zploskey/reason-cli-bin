@@ -19,5 +19,27 @@
   "homepage": "https://github.com/zploskey/reason-cli-bin#readme",
   "dependencies": {
     "reason-cli": "file:./reason-cli"
+  },
+  "bin": {
+    "ocamlmerlin": "reason-cli/.bin/ocamlmerlin",
+    "ocamlmerlin-reason": "reason-cli/.bin/ocamlmerlin-reason",
+    "ocamlrun": "reason-cli/.bin/ocamlrun",
+    "ocamlc": "reason-cli/.bin/ocamlc",
+    "ocamlc.opt": "reason-cli/.bin/ocamlc.opt",
+    "ocamlopt": "reason-cli/.bin/ocamlopt",
+    "ocamlopt.opt": "reason-cli/.bin/ocamlopt.opt",
+    "ocaml": "reason-cli/.bin/ocaml",
+    "rtop": "reason-cli/.bin/rtop",
+    "utop": "reason-cli/.bin/utop",
+    "refmt": "reason-cli/.bin/refmt",
+    "refmttype": "reason-cli/.bin/refmttype",
+    "reopt": "reason-cli/.bin/reopt",
+    "rebuild": "reason-cli/.bin/rebuild",
+    "reactjs_jsx_ppx": "reason-cli/.bin/reactjs_jsx_ppx",
+    "reactjs_jsx_ppx_2": "reason-cli/.bin/reactjs_jsx_ppx_2",
+    "berror": "reason-cli/.bin/berror",
+    "menhir": "reason-cli/.bin/menhir",
+    "ocamlfind": "reason-cli/.bin/ocamlfind",
+    "reason-cli": "reason-cli/.bin/reason-cli"
   }
 }
